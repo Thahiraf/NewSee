@@ -13,6 +13,10 @@
 		F01DBC572680A3E400034F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01DBC562680A3E400034F3C /* Assets.xcassets */; };
 		F01DBC5A2680A3E400034F3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01DBC592680A3E400034F3C /* Preview Assets.xcassets */; };
 		F01DBC5D2680A3E400034F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01DBC5B2680A3E400034F3C /* LaunchScreen.storyboard */; };
+		F01DBC662680A7BE00034F3C /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBC652680A7BE00034F3C /* NewsManager.swift */; };
+		F01DBC6B2680B34700034F3C /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBC6A2680B34700034F3C /* NewsData.swift */; };
+		F01DBC6E2680F9FB00034F3C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBC6D2680F9FA00034F3C /* DetailView.swift */; };
+		F01DBC7526811C7300034F3C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBC7426811C7300034F3C /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F01DBC592680A3E400034F3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F01DBC5C2680A3E400034F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F01DBC5E2680A3E400034F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01DBC652680A7BE00034F3C /* NewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
+		F01DBC6A2680B34700034F3C /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		F01DBC6D2680F9FA00034F3C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F01DBC7426811C7300034F3C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,8 @@
 			children = (
 				F01DBC502680A3E100034F3C /* AppDelegate.swift */,
 				F01DBC522680A3E100034F3C /* SceneDelegate.swift */,
-				F01DBC542680A3E100034F3C /* ContentView.swift */,
+				F01DBC702680FA0B00034F3C /* View */,
+				F01DBC682680A7C700034F3C /* Model */,
 				F01DBC562680A3E400034F3C /* Assets.xcassets */,
 				F01DBC5B2680A3E400034F3C /* LaunchScreen.storyboard */,
 				F01DBC5E2680A3E400034F3C /* Info.plist */,
@@ -73,6 +82,25 @@
 				F01DBC592680A3E400034F3C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F01DBC682680A7C700034F3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F01DBC652680A7BE00034F3C /* NewsManager.swift */,
+				F01DBC6A2680B34700034F3C /* NewsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F01DBC702680FA0B00034F3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F01DBC542680A3E100034F3C /* ContentView.swift */,
+				F01DBC7426811C7300034F3C /* WebView.swift */,
+				F01DBC6D2680F9FA00034F3C /* DetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01DBC662680A7BE00034F3C /* NewsManager.swift in Sources */,
 				F01DBC512680A3E100034F3C /* AppDelegate.swift in Sources */,
+				F01DBC6E2680F9FB00034F3C /* DetailView.swift in Sources */,
 				F01DBC532680A3E100034F3C /* SceneDelegate.swift in Sources */,
 				F01DBC552680A3E100034F3C /* ContentView.swift in Sources */,
+				F01DBC6B2680B34700034F3C /* NewsData.swift in Sources */,
+				F01DBC7526811C7300034F3C /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
